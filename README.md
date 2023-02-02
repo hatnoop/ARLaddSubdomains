@@ -21,6 +21,9 @@ sortSubdomain.py
 docker-compose up -d
 
 docker-compose cp sortSubdomain.py worker:/code/app/services/dns_query_plugin/
+
+#重启容器
+docker-compose restart worker
 ```
 
 server.py
