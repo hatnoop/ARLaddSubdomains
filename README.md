@@ -28,7 +28,7 @@ docker-compose restart worker
 
 server.py
 
-同目录下保存的内容：[domain].txt，如：tophant.com.txt，存放子域名信息，一行一个
+此为自定义接口服务端，同目录下保存的内容：[domain].txt，如：tophant.com.txt，存放子域名信息，一行一个
 
 ```
 python3 server.py
